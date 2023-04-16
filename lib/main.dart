@@ -23,10 +23,10 @@ class MyApp extends StatelessWidget {
               Text(
                 'Wynand',
                 style: TextStyle(
-                  fontSize: 40,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                ),
+                    fontSize: 40,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Pacifico'),
               )
             ],
           ),
