@@ -38,56 +38,45 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: const EdgeInsets.symmetric(
                   vertical: 10,
                   horizontal: 20,
                 ),
-                padding: const EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone,
-                      color: Colors.teal.shade900,
-                    ),
-                    const SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      '+27 123 456 789',
-                      style: TextStyle(
-                          color: Colors.teal.shade900,
-                          fontSize: 20,
-                          fontFamily: 'SansSourcePro'),
-                    )
-                  ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    '+27 123 456 789',
+                    style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontSize: 20,
+                        fontFamily: 'SansSourcePro'),
+                  ),
                 ),
               ),
-              Container(
-                color: Colors.white,
-                margin: const EdgeInsets.symmetric(
-                  vertical: 10,
-                  horizontal: 20,
-                ),
-                padding: const EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Icon(
+              Card(
+                  color: Colors.white,
+                  margin: const EdgeInsets.symmetric(
+                    vertical: 10,
+                    horizontal: 20,
+                  ),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.email,
                       color: Colors.teal.shade900,
                     ),
-                    const SizedBox(width: 10),
-                    Text(
+                    title: Text(
                       'wynand@email.com',
                       style: TextStyle(
                           fontSize: 20,
                           fontFamily: 'SansSourcePro',
                           color: Colors.teal.shade900),
-                    )
-                  ],
-                ),
-              )
+                    ),
+                  ))
             ],
           ),
         ),
