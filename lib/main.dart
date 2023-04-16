@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const CircleAvatar(
                 radius: 50,
@@ -39,7 +40,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                color: Colors.white,
                 margin: const EdgeInsets.symmetric(
                   vertical: 10,
                   horizontal: 20,
@@ -59,7 +59,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                  color: Colors.white,
                   margin: const EdgeInsets.symmetric(
                     vertical: 10,
                     horizontal: 20,
