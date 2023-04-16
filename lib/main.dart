@@ -20,6 +20,14 @@ class MyApp extends StatelessWidget {
                 backgroundColor: Colors.blueGrey,
                 backgroundImage: AssetImage('images/person.png'),
               ),
+              Text(
+                'Wynand',
+                style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
             ],
           ),
         ),
